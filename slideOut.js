@@ -12,7 +12,7 @@
             //Check if elementID is a string, then assigns DOM element to a var
             //and apply and remove styles on that var
 
-            slideRight: function(elementID, nextItem) {
+            slideRight: function(elementID) {
                 if (typeof elementID != 'string') return;
                 var element = document.getElementById(elementID);
                 element.style.transition = 'left 2s';
@@ -20,7 +20,7 @@
                 var transition = setTimeout(function() {element.style.transition = '';},1000);
             },
 
-            slideLeft: function(elementID, nextItem) {
+            slideLeft: function(elementID) {
                 if (typeof elementID != 'string') return;
                 var element = document.getElementById(elementID);
                 element.style.transition = 'left 2s';
@@ -28,7 +28,7 @@
                 var transition = setTimeout(function() {element.style.transition = '';},1000);
             },
 
-            slideTop: function(elementID, nextItem) {
+            slideTop: function(elementID) {
                 if (typeof elementID != 'string') return;
                 var element = document.getElementById(elementID);
                 element.style.transition = 'top 2s';
@@ -36,7 +36,7 @@
                 var transition = setTimeout(function() {element.style.transition = '';},1000);
             },
 
-            slideBot: function(elementID, nextItem) {
+            slideBot: function(elementID) {
                 if (typeof elementID != 'string') return;
                 var element = document.getElementById(elementID);
                 element.style.transition = 'top 2s';
