@@ -10,8 +10,10 @@ Just download slideOut.js and add the script on HTML
 
 # Syntax
 
-`slideOut.function(elementID, nextItem)`
+`slideOut.function(elementID)`
 
 Elements need; position: absolute, top: 0, left: 0
+
+elementID: element ID name.
 
 Functions: .slideRight, slideLeft, slideTop, slideBot
